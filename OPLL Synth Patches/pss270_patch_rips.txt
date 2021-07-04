@@ -1,0 +1,110 @@
+Piano 1                      $03 $01 $25 $00 $F2 $C4 $11 $23 
+Piano 2                      $03 $01 $1E $00 $F2 $C4 $11 $23 
+Honky-Tonk Piano (partial)   $13 $01 $18 $00 $F2 $A4 $11 $23 + CPU vibrato + BUILDIN 3(piano)   
+Electric Piano 1             $01 $81 $6A $04 $FF $F3 $01 $23
+Electric Piano 2             $01 $81 $60 $07 $FF $F3 $01 $23
+Harpsichord 1                $13 $01 $10 $00 $FF $AA $00 $23
+Harpsichord 2                $13 $01 $43 $00 $FF $AA $00 $23
+Harpsichord 3                $13 $01 $43 $00 $FF $AA $00 $16
+Honky-Tonk Clavi (partial)   $23 $21 $0A $00 $E0 $A3 $11 $F6 (TWO LAYERS, voice1 has cpu vibrato)
+Glass Celesta                $B7 $A1 $90 $00 $81 $F4 $10 $13
+Reed Organ                   $23 $21 $2C $14 $A2 $72 $00 $07
+Pipe Organ 1 (partial)       $20 $21 $3F $00 $F0 $60 $00 $06 (TWO LAYERS, one has block set+1)
+Pipe Organ 2                 $23 $21 $2D $14 $A2 $72 $00 $06
+Electronic Organ 1           $21 $21 $69 $47 $80 $80 $00 $08
+Electronic Organ 2 (partial) $23 $21 $2D $14 $A2 $72 $00 $08 (TWO LAYERS, voice1 detuned)
+Jazz Organ                   $33 $21 $14 $45 $FF $F1 $66 $1A
+Accordion (partial)          $23 $21 $55 $17 $90 $60 $03 $08 (TWO LAYERS, voice1 detuned)
+Vibraphone                   $17 $81 $24 $07 $FA $FA $22 $12
+Marimba 1                    $00 $02 $00 $47 $FD $F6 $1F $AA
+Marimba 2 (partial)          $00 $02 $00 $47 $FD $F6 $1F $AA (KEYON/KEYOFF retriggers!block set +1 alternatively)
+Trumpet (partial)            $21 $21 $1C $07 $92 $81 $10 $07 CPU pitch EG! (dip)
+Mute Trumpet                 $21 $21 $1C $46 $77 $81 $21 $07
+Trombone                     $30 $20 $59 $07 $42 $81 $10 $07
+Soft Trombone                $30 $20 $59 $06 $44 $81 $10 $07
+Horn                         $31 $21 $5D $07 $32 $61 $10 $07
+Alpenhorn                    $31 $21 $62 $00 $32 $51 $10 $06
+Tuba (partial)               $30 $20 $57 $07 $42 $62 $10 $07  CPU pitch EG! (dip)
+Brass Ensemble 1 (partial)   $21 $21 $1C $07 $42 $51 $10 $07 + BUILTIN 9 (detuned)
+Brass Ensemble 2 (partial)   $21 $21 $1C $07 $92 $81 $10 $07 + BUILTIN 7 (detuned)
+Brass Ensemble 3 (partial)   $30 $20 $57 $07 $42 $62 $10 $07 + BUILTIN 7 (detuned)
+Flute                        $11 $01 $0E $07 $A8 $64 $70 $20
+Panflute                     $06 $21 $A0 $07 $EE $8F $D8 $08
+Piccolo                      $04 $24 $30 $47 $6F $8F $19 $08
+Clarinet                     $12 $01 $5E $06 $E0 $76 $00 $20
+Bass Clarinet                $31 $20 $5D $06 $90 $80 $00 $08
+Oboe                         $11 $02 $16 $05 $E0 $71 $00 $10
+Bassoon                      $30 $21 $16 $05 $E0 $70 $01 $07
+Saxophone                    $30 $21 $59 $07 $C0 $80 $00 $08
+Bagpipe                      $20 $A1 $04 $03 $F0 $30 $00 $08
+Woodwinds (partial)          $30 $21 $16 $05 $E0 $70 $01 $07 (detuned) + BUILTIN 6
+Violin 1                     $11 $01 $1E $07 $D0 $78 $00 $10
+Violin 2                     $21 $21 $1A $07 $A0 $50 $00 $08
+Cello                        $20 $21 $1D $07 $A0 $50 $00 $08
+Strings (partial)            $20 $21 $1D $07 $A0 $30 $00 $08 + BUILTIN 1 (detuned)
+Electric Bass                $00 $00 $15 $43 $F1 $E4 $21 $12
+Slap Bass                    $10 $00 $06 $05 $E9 $F4 $41 $57
+Wood Bass                    $00 $00 $55 $03 $C9 $95 $03 $02
+Synth Bass                   $C0 $00 $10 $05 $C2 $F5 $20 $42
+Banjo                        $13 $01 $15 $07 $F9 $F6 $20 $24
+Mandolin (partial)           $13 $01 $18 $05 $F9 $F6 $00 $23 + tons of cpu detuned retriggers using two voices? odd invstigate
+Classic Guitar               $10 $01 $05 $07 $FB $99 $61 $22
+Jazz Guitar                  $13 $81 $25 $00 $FF $99 $11 $13
+Folk Guitar                  $13 $01 $43 $00 $FD $FF $51 $23
+Hawaiian Guitar              $53 $81 $59 $07 $F0 $FD $00 $23
+Ukulele                      $11 $02 $89 $05 $F0 $A8 $00 $15
+Koto                         $13 $01 $10 $06 $FF $E8 $32 $23
+Shamisen                     $53 $01 $00 $07 $EC $F7 $72 $87
+Harp                         $10 $01 $9B $00 $F0 $F8 $00 $14
+Harmonica                    $23 $A1 $18 $05 $64 $74 $01 $07
+Music Box                    $19 $82 $0F $03 $FC $B6 $52 $25
+Brass & Marimba              $31 $23 $1D $4F $36 $F6 $00 $28 (uh only one tone?)
+Flute & Harpsichord (partial)$13 $01 $83 $11 $FA $E4 $10 $04 + BUILTIN 4 (detuned)
+Oboe & Vibraphone (partial)  $31 $22 $16 $05 $E0 $71 $0F $18 (BUILTIN6) + BUILTIN C!!!
+Clarinet & Harp (partial)    $10 $01 $9B $00 $F0 $F8 $00 $14 + BUILTIN 5
+Violin & Steel Drum (partial)$23 $80 $8A $00 $A5 $C7 $F0 $A7 + BUILTIN 1
+Handsaw                      $50 $05 $20 $06 $F1 $6A $10 $13
+Synth Brass                  $21 $21 $17 $01 $F2 $54 $48 $48
+Metallic Synth               $01 $01 $0B $00 $85 $F7 $71 $00
+Sine Wave                    $21 $21 $3F $40 $0F $80 $FF $08
+Reverse                      $20 $A1 $20 $00 $F0 $28 $00 $F8
+Human Voice 1 (partial)      $E1 $23 $10 $10 $77 $54 $93 $F4 + CPU pitch EG
+Human Voice 2 (partial)      $E2 $21 $17 $10 $F0 $54 $00 $F4 + CPU pitch EG
+Human Voice 3 (partial)      $21 $24 $1B $17 $F5 $66 $30 $27 + CPU pitch EG
+Whisper (partial)            $22 $21 $20 $00 $FF $4F $03 $04 + CPU pitch EG
+Whistle                      $06 $24 $A0 $47 $EE $6F $F8 $08
+Gurgle                       $F0 $81 $40 $00 $20 $48 $05 $12
+Bubble                       $10 $01 $18 $07 $F0 $A5 $00 $05
+Raindrop (partial)           $03 $01 $3F $07 $FF $A8 $FF $13 + CPU retrig with block+1
+Popcorn                      $21 $21 $13 $05 $50 $F5 $F8 $F8   
+Drip                         $20 $21 $10 $05 $44 $F5 $F8 $F8    
+Dog Pianist (partial)        $21 $24 $1B $17 $F5 $66 $30 $27 (detuned + BUILTIN 3)
+Duck                         $21 $21 $0B $04 $75 $F1 $24 $07    
+Baby Doll                    $38 $24 $91 $03 $90 $83 $11 $F3
+Telephone Bell (partial)     $12 $01 $11 $20 $F0 $A8 $11 $14 (TWO LAYERS, voice1 retrigs with detune? investigate)
+Emergency Alarm (partial)    $21 $21 $1D $07 $82 $81 $10 $07 (TWO LAYERS, both voices CPU pitch LFO)
+Leaf Spring                  $50 $88 $12 $03 $F1 $D4 $40 $13
+Comet (partial)              $22 $21 $11 $20 $90 $83 $11 $F3 BLOCK (4,3,5, looped)
+Fireworks                    $03 $01 $00 $07 $11 $41 $00 $03
+Crystal (partial)            $22 $21 $11 $20 $90 $83 $11 $F3 BLOCK (4,5 loopped)
+Ghost (partial)              $E2 $21 $17 $00 $F0 $54 $00 $F4 + cpu pitch lfo
+Hand Bell                    $03 $01 $10 $00 $14 $F6 $F0 $22
+Chimes                       $22 $21 $11 $20 $90 $83 $11 $F3
+Bell                         $E2 $21 $05 $20 $90 $83 $11 $F3
+Steel Drum                   $23 $80 $8A $00 $A5 $C7 $F0 $A7
+Cowbell                      $15 $01 $26 $06 $F5 $F4 $11 $05
+Synth Tom 1 (partial)        $11 $01 $10 $07 $FA $F7 $F0 $47 + CPU PITCH eg
+Synth Tom 2 (partial)        $10 $00 $10 $07 $FA $F7 $50 $67 + CPU PITCH eg
+Snare Drum                   $21 $83 $00 $17 $FF $8F $03 $08
+Machine Gun (partial)        $14 $01 $00 $07 $F1 $F8 $01 $17 + lots of CPU retrigs
+Wave                         $22 $20 $02 $07 $FF $21 $00 $F3
+
+(*Double sounding voices) 
+
+• Up to nine notes (or four notes.) can be played at the same time. 
+However, please note that when, for example, 
+you use Auto Accompaniment and Rhythm at the some time,
+ these two feature( account for seven notes; therefore, 
+ in this case only two (o one.) melody notes can be player simultaneously 
+ (if you press more then two notes, the latest one wil be played). 
+9 available notes—(4 notes, 3 notes)=2 notes Or 1 note') for melody 
